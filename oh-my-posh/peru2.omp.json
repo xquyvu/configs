@@ -19,7 +19,7 @@
         {
           "foreground": "#0fc469",
           "style": "powerline",
-          "template": "\u279c \ue235({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Major }}.{{ .Minor }}{{ end }}) ",
+          "template": "\u279c \ue235 ({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Major }}.{{ .Minor }}{{ end }}) ",
           "type": "python"
         },
         {
