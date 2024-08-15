@@ -75,7 +75,7 @@
             "threshold": 10
           },
           "style": "plain",
-          "template": "took \uf252 {{ .FormattedMs }} ",
+          "template": "\uf252 {{ .FormattedMs }} ",
           "type": "executiontime"
         },
         {
@@ -84,13 +84,13 @@
             "time_format": "15:04:05"
           },
           "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} \uf017 ",
+          "template": "\uf017 {{ .CurrentDate | date .Format }} ",
           "type": "time"
         },
         {
           "foreground": "#cccccc",
           "style": "plain",
-          "template": " {{ round .PhysicalPercentUsed .Precision }}% \uec19 ",
+          "template": "\uec19 {{ round .PhysicalPercentUsed .Precision }}% ",
           "type": "sysinfo"
         }
       ],
