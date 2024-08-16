@@ -2,6 +2,12 @@
 
 - Install oh-my-posh, following the documentation [here](https://ohmyposh.dev/docs/)
 - Copy the theme files to the oh-my-posh themes directory
+
+```powershell
+# Windows
+.\oh-my-posh\copy_windows.ps1
+```
+
 - Point the oh-my-posh configuration to the theme file
 
 ```powershell
